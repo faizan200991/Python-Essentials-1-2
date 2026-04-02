@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Python-Essentials-1-2
 This repository contains beginner and intermediate Python practice files based on the Python Essentials syllabus.
 =======
@@ -46,19 +45,8 @@ or:
 
     python "Python Essentials 2/object_oriented_programming_oop.py"
 
-## Upload To GitHub
-
-Run these commands in the project root folder:
-
-    git init
-    git add .
-    git commit -m "Add Python Essentials 1 and 2 practice files"
-    git branch -M main
-    git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-    git push -u origin main
 
 ## Notes
 
 - These files are practice-focused and beginner-friendly.
 - Edit values, add your own exercises, and rerun to learn faster.
->>>>>>> 5515d03 (Add Python Essentials 2 practice files)
