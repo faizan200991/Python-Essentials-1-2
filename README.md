@@ -45,22 +45,58 @@ Each project has its own folder with detailed code and a dedicated README file e
 
 ---
 
+
 ## Folder Structure
 
 ```
 Python-Essentials-1-2/
 │
-├── Python_Essentials_1/
-├── Python_Essentials_2/
-├── Projects/
-│   ├── CPU_Scheduling_Simulation/
-│   ├── Snake_Game/
-│   ├── TicTacToe_AI/
-│   ├── Data_Analysis_Dashboard/
-│   └── Flask_Task_Manager/
+├── Python Essentials 1/
+├── Python Essentials 2/
+├── projects/
+│   ├── CPU Scheduling Simulation (Operating System Project)/
+│   ├── Snake Game Python/
+│   ├── Student Performance Dashboard/
+│   ├── Tic-Tac-Toe game/
+│   └── todo task/
 │
 └── README.md
 ```
+
+---
+
+## Python Essentials 1 & 2 Topics
+
+**Python Essentials 1** covers:
+- Introduction to programming and Python basics
+- Variables and data types
+- Basic input and output
+- Operators
+- Conditional statements
+- Loops
+- Functions
+- Lists and list operations
+- Tuples and dictionaries (basic)
+
+**Python Essentials 2** covers:
+- File handling
+- Exceptions and error handling
+- Object-oriented programming (OOP)
+- Modules and packages
+- Lambda functions and functional tools
+- Generators and iterators
+- Advanced strings
+- Advanced lists
+- Dictionaries and tuples (advanced)
+- Basic networking
+
+---
+
+## References
+
+- [Python Essentials 1 (Cisco NetAcad)](https://www.netacad.com/courses/python-essentials-1?courseLang=en-US)
+- [Python Essentials 2 (Cisco NetAcad)](https://www.netacad.com/courses/python-essentials-2?courseLang=en-US)
+
 
 ## Purpose of This Repository
 
