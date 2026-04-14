@@ -1,52 +1,50 @@
-# Python-Essentials-1-2
-This repository contains beginner and intermediate Python practice files based on the Python Essentials syllabus.
-=======
-# Python Essentials 1 & 2 Practice Files
+# CPU Scheduling Simulation (Operating System Project)
 
-This repository contains beginner and intermediate Python practice files based on the Python Essentials syllabus.
+This project simulates the Round-Robin CPU scheduling algorithm with random I/O interrupts and visualizes the process execution using a Gantt chart.
 
-## Folder Structure
+## Features
+- **Round-Robin Scheduling:** Simulates process scheduling with a configurable time quantum (default: 3).
+- **Random I/O Interrupts:** Processes may be interrupted for I/O, with random durations.
+- **Detailed State Logging:** Prints process state transitions (New, Ready, Running, Waiting, Terminated) with reasons.
+- **Performance Metrics:** Calculates and displays per-process and average turnaround and waiting times.
+- **Gantt Chart Visualization:** Generates a detailed Gantt chart of process execution and I/O using matplotlib.
 
-- Python Essentials 1
-- Python Essentials 2
+## Requirements
+- Python 3.x
+- [matplotlib](https://matplotlib.org/) (for Gantt chart visualization)
 
-## Python Essentials 1 (PE1)
+Install matplotlib if not already installed:
+```bash
+pip install matplotlib
+```
 
-1. introduction_to_programming_and_python.py
-2. variables_and_data_types.py
-3. basic_input_and_output.py
-4. operators.py
-5. conditional_statements.py
-6. loops.py
-7. lists_and_list_operations.py
-8. functions.py
-9. tuples_and_dictionaries_basic.py
+## Usage
+1. Edit the process list at the bottom of `OS1_updated.py` to define your processes (PID, arrival time, burst time).
+2. Run the script:
+```bash
+python OS1_updated.py
+```
+3. The simulation will print a detailed log and metrics. If matplotlib is installed, a Gantt chart will be displayed and saved as `gantt_detailed.png`.
 
-## Python Essentials 2 (PE2)
+## Example
+Default processes in the script:
+- P1: Arrival=0, Burst=8
+- P2: Arrival=1, Burst=4
+- P3: Arrival=3, Burst=6
+- P4: Arrival=5, Burst=2
 
-1. modules_and_packages.py
-2. strings_advanced.py
-3. exceptions_and_error_handling.py
-4. file_handling.py
-5. object_oriented_programming_oop.py
-6. working_with_lists_advanced.py
-7. dictionaries_and_tuples_advanced.py
-8. lambda_functions_and_functional_tools.py
-9. generators_and_iterators.py
-10. basic_networking_intro.py
+## Output
+- Console log of process state transitions and metrics
+- Gantt chart image (`gantt_detailed.png`)
 
-## How To Run A File
+### Gantt Chart Example
+![Gantt Chart](gantt_detailed.png)
 
-From the project root, run:
-
-    python "Python Essentials 1/basic_input_and_output.py"
-
-or:
-
-    python "Python Essentials 2/object_oriented_programming_oop.py"
+## Customization
+- Change the `time_quantum` parameter in `run_simulation()` to adjust the Round-Robin quantum.
+- Modify the process list to simulate different scenarios.
 
 
-## Notes
 
-- These files are practice-focused and beginner-friendly.
-- Edit values, add your own exercises, and rerun to learn faster.
+---
+For questions or improvements, feel free to contribute or contact the author.
