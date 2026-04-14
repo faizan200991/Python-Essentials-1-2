@@ -67,7 +67,7 @@ Python-Essentials-1-2/
 The goal of this repository is to document my learning journey, showcase my practical skills, and demonstrate how I applied theoretical knowledge to build real applications. It serves as both a personal learning archive and a portfolio for future opportunities.
 
 ---
-## 📬 Feedback
+## Feedback
 
 I’m open to feedback, suggestions, and collaboration opportunities. Feel free to explore the repository and share your thoughts!
 
